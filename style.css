@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.main-section {
+    padding: 20px 10em;
+    background-color: white;
+}
+
+.image-container{
+    height: 45vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+h3{
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a{
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6{
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(96deg, #74542B, #DAA772);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 22px;
+    border-bottom: 1px color(#dfdfdf);
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #74542B 
+}
+
+#cipressi{
+    background-image: url(image3/cipressi.jpg);
+    background-position: 50% 20%;
+}
+#alpiapuane{
+    background-image: url(image3/alpiapuane.jpg);
+    background-position: 50% 25%;
+}
+
+#vignetitoscani{
+    background-image: url(image3/vignetitoscani.jpg);
+}
+
+#termesaturnia{
+    background-image: url(image3/termesaturnia.jpg);
+    background-position: 50% 5%;
+}
+
+#isolaelba{
+    background-image: url(image3/isolaelba.jpg)
+}
+
+#torredipisa{
+    background-image: url(image3/pisa.jpg);
+    background-size: 990px 410px;
+}
+
+footer{
+background-color: black;
+padding: 16px;
+text-align: center;
+
+}
+
+footer a{
+    color: white;
+    }
+
+.sfondo-alpi{
+    background: linear-gradient(96deg, #606f13,#afb7a6)
+}
+
+.sfondo-chianti{
+    background: linear-gradient(96deg, #832a0f,#f3bd18)
+}
+
+.sfondo-elba{
+    background: linear-gradient(96deg, #0c356e,#28c0c0)
+}
+
+.sfondo-saturnia{
+     background: linear-gradient(96deg, #313923,#9ac4d1)
+}
+
+.sfondo-pisa{
+     background: linear-gradient(96deg, #281c0c,#796d01)
+}
